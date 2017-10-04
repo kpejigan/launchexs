@@ -7,5 +7,8 @@ first_name = 'Nuhu'
 last_name = 'Hamidu'
 
 # concatenating strings in one string - full name
-full_name = "#{first_name} #{last_name}"
+full_name = "Nuhu " + "Hamidu" 
 puts full_name
+
+# using string interpolation...
+puts full_name = "#{first_name} #{last_name}"
